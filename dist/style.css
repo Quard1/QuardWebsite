@@ -96,7 +96,7 @@ button:hover {
 }
 
 .btn1 {
-  background-color: var(--discord);
+  background-color: var(--black);
   -webkit-filter: drop-shadow(8px 8px 1px #2b3492);
           filter: drop-shadow(8px 8px 1px #2b3492);
 }
@@ -107,7 +107,7 @@ button:hover {
 }
 
 .btn2 {
-  background-color: var(--yellow);
+  background-color: var(--black);
   -webkit-filter: drop-shadow(8px 8px 1px #666008);
           filter: drop-shadow(8px 8px 1px #666008);
 }
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .btn3 {
-  background-color: var(--green);
+  background-color: var(--black);
   -webkit-filter: drop-shadow(8px 8px 1px #154b03);
           filter: drop-shadow(8px 8px 1px #154b03);
 }
@@ -129,7 +129,7 @@ button:hover {
 }
 
 .btn4 {
-  background-color: var(#00836D);
+  background-color: var(--black);
   -webkit-filter: drop-shadow(8px 8px 1px #00836D);
           filter: drop-shadow(8px 8px 1px #00836D);
 }
@@ -141,7 +141,7 @@ button:hover {
 
 
 .btn5 {
-  background-color: var(#FF0049);
+  background-color: var(--black);
   -webkit-filter: drop-shadow(8px 8px 1px #FF0049);
           filter: drop-shadow(8px 8px 1px #FF0049);
 },
@@ -152,7 +152,7 @@ button:hover {
 }
 
 .btn6 {
-  background-color: var(#FF7000);
+  background-color: var(--black);
   -webkit-filter: drop-shadow(8px 8px 1px #FF7000);
           filter: drop-shadow(8px 8px 1px #FF7000);
 }
@@ -163,7 +163,7 @@ button:hover {
 }
 
 .btn7 {
-  background-color: var(#FF00E4);
+  background-color: var(--black);
   -webkit-filter: drop-shadow(8px 8px 1px #FF00E4);
           filter: drop-shadow(8px 8px 1px #FF00E4);
 }
