@@ -129,50 +129,46 @@ button:hover {
 }
 
 .btn4 {
-  background-color: var(--green);
+  background-color: var(#00836D);
   -webkit-filter: drop-shadow(8px 8px 1px #00836D);
           filter: drop-shadow(8px 8px 1px #00836D);
 }
 
 .btn4:hover {
-  background-color: var(--green);
   -webkit-filter: drop-shadow(8px 8px 1px #00836D);
           filter: drop-shadow(8px 8px 1px #00836D);
 }
 
 
 .btn5 {
-  background-color: var(--green);
+  background-color: var(#FF0049);
   -webkit-filter: drop-shadow(8px 8px 1px #FF0049);
           filter: drop-shadow(8px 8px 1px #FF0049);
 },
 
 .btn5:hover {
-  background-color: var(--green);
   -webkit-filter: drop-shadow(8px 8px 1px #FF0049);
           filter: drop-shadow(8px 8px 1px #FF0049);
 }
 
 .btn6 {
-  background-color: var(--green);
+  background-color: var(#FF7000);
   -webkit-filter: drop-shadow(8px 8px 1px #FF7000);
           filter: drop-shadow(8px 8px 1px #FF7000);
 }
 
 .btn6:hover {
-  background-color: var(--green);
   -webkit-filter: drop-shadow(8px 8px 1px #FF7000);
           filter: drop-shadow(8px 8px 1px #FF7000);
 }
 
 .btn7 {
-  background-color: var(--green);
+  background-color: var(#FF00E4);
   -webkit-filter: drop-shadow(8px 8px 1px #FF00E4);
           filter: drop-shadow(8px 8px 1px #FF00E4);
 }
 
 .btn7:hover {
-  background-color: var(--green);
   -webkit-filter: drop-shadow(8px 8px 1px #FF00E4);
           filter: drop-shadow(8px 8px 1px #FF00E4);
 }
