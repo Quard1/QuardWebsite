@@ -128,6 +128,53 @@ button:hover {
           filter: drop-shadow(0 0 0 #154b03);
 }
 
+.btn4 {
+  background-color: var(#00836D);
+  -webkit-filter: drop-shadow(8px 8px 1px #00836D);
+          filter: drop-shadow(8px 8px 1px #00836D);
+}
+
+.btn4:hover {
+  -webkit-filter: drop-shadow(8px 8px 1px #00836D);
+          filter: drop-shadow(8px 8px 1px #00836D);
+}
+
+
+.btn5 {
+  background-color: var(#FF0049);
+  -webkit-filter: drop-shadow(8px 8px 1px #FF0049);
+          filter: drop-shadow(8px 8px 1px #FF0049);
+},
+
+.btn5:hover {
+  -webkit-filter: drop-shadow(8px 8px 1px #FF0049);
+          filter: drop-shadow(8px 8px 1px #FF0049);
+}
+
+.btn6 {
+  background-color: var(#FF7000);
+  -webkit-filter: drop-shadow(8px 8px 1px #FF7000);
+          filter: drop-shadow(8px 8px 1px #FF7000);
+}
+
+.btn6:hover {
+  -webkit-filter: drop-shadow(8px 8px 1px #FF7000);
+          filter: drop-shadow(8px 8px 1px #FF7000);
+}
+
+.btn7 {
+  background-color: var(#FF00E4);
+  -webkit-filter: drop-shadow(8px 8px 1px #FF00E4);
+          filter: drop-shadow(8px 8px 1px #FF00E4);
+}
+
+.btn7:hover {
+  -webkit-filter: drop-shadow(8px 8px 1px #FF00E4);
+          filter: drop-shadow(8px 8px 1px #FF00E4);
+}
+
+
+
 @media screen and (max-width: 800px) {
   .buttons {
     width: 80px;
@@ -292,10 +339,12 @@ h4:hover {
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+ 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+ 0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
   }
 }
 
@@ -304,10 +353,12 @@ h4:hover {
 /*glow*/
 @keyframes neon1 {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+ 0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+ 0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
   }
 }
 /*# sourceMappingURL=style.css.map */
