@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="dist/style.css"> 
+  
+<head>
+  
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+     
+      <script>
+     
+    /* Add "https://api.ipify.org?format=json" statement
+               this will communicate with the ipify servers in
+               order to retrieve the IP address $.getJSON will
+               load JSON-encoded data from the server using a
+               GET HTTP request */
+                
+    $.getJSON("https://api.ipify.org?format=json", function(data) {
+         
+        // Setting text of element P with id gfg
+        $("#gfg").html(data.ip);
+    })
+    </script>
+</head>
+<script>
+  function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
+
+
+<body>
+    <div class="bg"></div>
+    <!--- Particles -->  <div class="animation-wrapper"> <div class="particle particle-1"></div> <div class="particle particle-2"></div> <div class="particle particle-3"></div> <div class="particle particle-4"></div> </div>
+    <div class="center">
+        <div class="animate__animated animate__jackInTheBox">
+            <h1>Quard</h1> <!--- Server Name -->
+            <p>Ip Adresin</p> <!--- Description -->
+            <div class="animate__animated animate__bounceIn animate__delay-1s">
+                <a><button class="btn3" onclick="copyToClipboard('#gfg')"><i class=""></i>Kopyala</button></a>
+                <a><button class="btn1" ><i class="" id="gfg"></i> </button></a>
+            </div>
+        </div>
+    </div>
+    <script src="app/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5acf4d9e80.js" crossorigin="anonymous"></script>
+</body>
+  
+<body>
+    <center>
+        <p ></p>
+ 
+    </center>
+</body>
+ 
+</html>
